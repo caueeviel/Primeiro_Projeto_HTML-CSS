@@ -1,0 +1,106 @@
+body{
+    font-family: Arial,  sans-serif;
+    background-color:  #ccc;
+    margin:  0;
+}
+.hero{
+    background-image:  url(../imagens/bg-3.jpg);
+    background-position: right center;
+    background-size: cover;
+    height: 500px;
+    border-top:  1px solid transparent;
+}
+
+.hero nav li{display: inline-block;
+list-style: none;
+margin-left:  10px;
+border:  1px solid white;
+}
+
+.hero nav a{display: block;
+padding: 10px;
+color:  white;
+text-decoration: none;
+text-transform:  uppercase;
+font-size:  12px;
+letter-spacing: 2px;
+}
+.hero nav ul {text-align: right;
+    margin:  20px 50px 0 0 ;
+ 
+}
+.hero-contant{
+    text-align: center;
+    margin:  150px; 
+    color: #ffff;
+}
+
+.hero-contant p{
+    background-color: rgba(0, 0, 0,  .5);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid #ffff;}
+
+
+ .hero nav a:hover{
+     background: rgba(250, 249, 246, 0.6);
+ }
+
+
+
+.hero-contant h1{
+    text-transform: uppercase ;
+    font-size: 46px;
+    text-shadow:  3px 3px 2px #333;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.card{float: left;
+width: 32%;
+box-sizing: border-box;}
+
+.card p{background-color: black ;
+    color: white;
+    margin: 0px;
+    padding: 15px
+}
+
+
+
+.card-1, .card-2 {margin-right: 2%;}
+
+.card  img{ width: 100%;
+display: block;}
+
+.contet-sedtion{
+margin-top: 15px;
+background-color: #ffff;
+padding: 25px;
+border-bottom:  solid 2px #ccc;
+overflow: auto;
+
+}
+
+.contet-header{
+border-bottom:  solid 2px #ccc;
+padding: 10px;
+background-color:rgb(161, 155, 155);
+}
+
+
+
+.rodape{
+
+    height: 80px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    background: #6b6c68;
+    padding-top: 70px;
+    
+}
+
